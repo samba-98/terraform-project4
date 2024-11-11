@@ -3,5 +3,5 @@ resource "google_storage_bucket" "gcs1" {
   location                 = "US"
   force_destroy            = true
   public_access_prevention = "enforced"
-  project = "terraform-demo-441306"
+  project                  = "terraform-demo-441306"
 }
